@@ -20,9 +20,7 @@ def get_dates(year, day_of_the_week):
             if dl[day_of_the_week] > 0:
                 print("%s/%s/%s") % (m, dl[day_of_the_week], year)
                 break
-
-
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(
         description='Get the first specified day in each month of the year',
         epilog='example: ./getFirstWeekdays.py 2017 1')
@@ -45,3 +43,6 @@ if __name__ == '__main__':
         print("Year must be great than zero")
     else:
         get_dates(year, day_of_the_week)
+
+if __name__ == '__main__':
+    main()
