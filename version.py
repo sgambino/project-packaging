@@ -1,3 +1,3 @@
 """Simply keeps track of the current version of the client"""
 
-VERSION="0.1.0"
+VERSION="0.2.0"
