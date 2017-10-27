@@ -1,9 +1,3 @@
-__pycache__/
-venv/
 *.egg-info/
 *.pyc
-build/
 dist/
-.coverage
-cover/
-*.json
