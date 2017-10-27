@@ -33,7 +33,8 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        #'Topic :: Software Development :: Utilities',
+        "Topic :: Software Development",
+        "Topic :: Utilities",
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
@@ -88,7 +89,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'date_query=date_query',
+            'date_query=date_query:main',
         ],
     },
 )
