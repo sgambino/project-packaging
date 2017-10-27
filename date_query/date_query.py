@@ -23,7 +23,7 @@ def get_dates(year, day_of_the_week):
 def main():
     parser = argparse.ArgumentParser(
         description='Get the first specified day in each month of the year',
-        epilog='example: ./getFirstWeekdays.py 2017 1')
+        epilog='example: date_query 2017 1')
     parser.add_argument(
         'year',
         type=int,
