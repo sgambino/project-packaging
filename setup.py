@@ -88,7 +88,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'date_query=date_query:main',
+            'date_query=date_query',
         ],
     },
 )
